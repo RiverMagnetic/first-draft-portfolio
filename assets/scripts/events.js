@@ -1,12 +1,14 @@
 'use strict'
 
 const onShowProjectDescription = function(event) {
+    console.log(event)
     event.preventDefault()
+    console.log(this)
     $(this).toggleClass('show-project-description')
   }
 
 const addHandlers = () => {
-    $('div').on('click', onShowProjectDescription)
+    $('.project').on('click', onShowProjectDescription)
 }
 
 module.exports = {
