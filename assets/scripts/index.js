@@ -1,8 +1,7 @@
 'use strict'
 
-const events = require('./events.js')
-
 $(() => {
-    console.log(events.addHandlers())
-    events.addHandlers()
+    $('.project').on('click', function() {
+        $(this).toggleClass('show-project-description')
+        })
 })
