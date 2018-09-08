@@ -76,7 +76,12 @@ small {
   opacity: 0;
   font-size: 16px;
 }
-
+svg {
+  background: rgba(250, 248, 248);
+}
+.live-link{
+  background: rgba(250, 248, 248);
+}
 .text-div {
   border: 1px solid rgba(200, 200, 250, 0.9);
   border-radius: 12px;
