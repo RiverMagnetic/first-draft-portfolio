@@ -7,13 +7,11 @@ body {
 
 h1 {
   font-family: 'Comfortaa', cursive;
-  text-align: center;
   color: rgba(0, 0, 0, 0.753);
   margin: 60px 0 20px 0;
 }
 h2 {
   font-family: 'Questrial', sans-serif;
-  text-align: center;
   color: rgba(0, 0, 0, 0.699);
 
 }
@@ -21,7 +19,6 @@ h3 {
   font-size: 22px;
   font-weight: 500;
   font-family: 'Questrial', sans-serif;
-  text-align: center;
   color: rgba(0, 0, 0, 0.699);
   margin: 20px 0 20px 0;
 }
@@ -62,7 +59,6 @@ li {
   font-size: 19px;
 }
 p {
-  /* margin: 0 auto; */
   height: 130px;
   position: relative;
   margin: 20px;
@@ -75,6 +71,20 @@ small {
   font-family: 'Questrial', sans-serif;
   opacity: 0;
   font-size: 16px;
+}
+
+i {
+  margin: 0 auto;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1.28571429em;
+  
 }
 svg {
   background: rgba(250, 248, 248);
@@ -143,6 +153,63 @@ ul.skills-list li {
 footer {
   padding: 10px;
   background: rgba(0,0,0,0.5); 
+}
+footer h3{
+  margin-bottom: 30px;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  margin-top: 0;
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+footer p {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  line-height: 1.5;
+}
+.list-footer {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  line-height: 1.5;
+}
+.list-footer-item {
+  display: inline-block;
+  box-sizing: inherit;
+  text-align: -webkit-match-parent;
+}
+.list-footer-item:not(:last-child) {
+  margin-right: 5px;
+}
+.btn-social {
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.btn-outline {
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: solid 2px white;
 }
 #contact-info {
   display: grid;
