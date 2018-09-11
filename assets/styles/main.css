@@ -39,6 +39,12 @@ li {
   padding: 4px 10px 4px 10px;
   margin: 5px;
 }
+a{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  box-sizing: inherit;
+}
 .project-text {
   color: rgba(255,255,255,1);
   background: black;
@@ -210,6 +216,18 @@ footer p {
   transition: all 0.3s ease-in-out;
   color: white;
   border: solid 2px white;
+}
+h5{
+  box-sizing: inherit;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  display: block;
+  -webkit-margin-before: 1.67em;
+  -webkit-margin-after: 1.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  overflow-x: hidden;
 }
 #contact-info {
   display: grid;
