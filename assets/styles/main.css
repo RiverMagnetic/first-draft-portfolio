@@ -112,15 +112,19 @@ svg {
   opacity: 1;
 }
 
-.bucket-list{
-  background-image: url("https://i.imgur.com/08FnfeJ.png?1");
+.just-add-water {
+  background-image: url("https://i.imgur.com/pYsXwJ0.jpg?1");
 }
 
-.my-list{
+.bucket-list {
+  background-image: url("https://i.imgur.com/ItOJjmK.png");
+}
+
+.my-list {
   background-image: url("https://i.imgur.com/ppokHBn.png");
 }
 
-.tic-tac-toe{
+.tic-tac-toe {
   background-image: url("https://i.imgur.com/IfSYR3i.png");
 }
 
